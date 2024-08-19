@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // chapter 9- 11
+
+        // Qno1
+
+        //     var city = prompt("What is your city name?");
+        //   if( city === "Karachi"){
+        //     alert("Welcome to cities of light")
+        //   }
+
+        // //   Qno2
+        // var gender = prompt("What is your gender?");
+        // if(gender === "Male"){
+        //     alert("Good Morning Sir")
+        // }
+        // if(gender === "Female"){
+        //     alert("Good Morning Maam")
+        // }
+
+        // Qno3
+        // var light = prompt("What is the colour of traffic lights?")
+        // if(light === "Red"){
+        //     alert("Must Stop")
+        // }
+        // if(light === "Yellow"){
+        //     alert("Ready to move")
+        // }
+        // if(light === "Green"){
+        //     alert("Move now")
+        // }
+
+        // QNO4
+        // var fuel = +prompt("How much fuel remain in your car?")
+        // if (fuel < 0.25  ||  fuel === 0.25){
+        //     alert("Please refill the fuel in your car")
+        // }
+
+        // Qno5
+        // var  a = 4;
+        // if(++a === 5){
+        //     alert("Given conditon of value a is true")
+        // }
+        // var b = 82;
+        // if (b++ === 83) {
+        //     alert("given condition for variable b is true");
+        // }
+
+        // var c = 12;
+        // if (c++ === 13) {
+        //     alert("condition 1 is true");
+        // }
+        // if (c === 13) {
+        //     alert("condition 2 is true");
+        // }
+        // if (++c < 14) {
+        //     alert("condition 3 is true");
+        // }
+        // if (c === 14) {
+        //     alert("condition 4 is true");
+        // }
+
+
+        //     // Qno6
+        //     var marks = +prompt("Write the obtained marks in English");
+        //     var marks2 = +prompt("Write the obtained marks in Maths");
+        //     var marks3 = +prompt("Write the obtained marks in Urdu");
+
+
+
+        // var totalMarks  = 300;
+        // document.write( "Total Marks:" + totalMarks + "<br>")
+
+        // var obtainedMarks = marks + marks2 + marks3;
+        // document.write("Marks Obatined:" + obtainedMarks + "<br>");
+
+        // var percantage = obtainedMarks / totalMarks * 100;
+        // document.write("Percantage:" +  percantage + "%" + "<br>");
+
+        // if( percantage < 80 || percantage === 80){
+        //     document.write("Grade : A-one" + "<br>" + "Remarks : Excellent")
+        // }
+        // if(percantage < 70 || percantage === 70){
+        //     document.write("Grade : A" + "<br>" + "Remarks : Good");
+        // }
+        // if(percantage < 60 || percantage === 60){
+        //     document.write("Grade : B" + "<br>" + "Remarks : You need to improve");
+        // }
+        // else{document.write("Grade : Fail " + "<br>" + "Sorry")}
+
+
+        // Qno7;
+        // var secret = 5;
+        // var num = +prompt("Guess the secret number?");
+        // if(num === secret ){
+        //     alert("Bingo!")
+        // }
+        // if(num === ++secret){
+        //     alert("Close enough to the correct number")
+        // }
+
+        // Qno8
+        // var a = +prompt("Please enter the number?");
+        // if(a %  3 === 0){
+        //     alert("its mutliply by 3")
+        // }
+
+        // Qno9
+        // var a = +prompt("Please enter the number?");
+        // if( a % 2 === 0){
+        //     alert("It is an even number")
+        // }
+        // if( a % 2 !== 0){
+        //     alert("It is an odd number")
+        // }
+
+        // Qno10
+        // var a = prompt("Please enter the temperature?")
+        // if(a < 40  || a === 40){
+        //     alert("It is too hot outside")
+        // }
+        // if(a < 30  || a === 30){
+        //     alert("The weather today is normal")
+        // }
+        // if(a < 20 || a === 20){
+        //     alert("Today's weather is cool")
+        // }
+        // if(a < 10  || a === 10){
+        //     alert("OMG! Today's weather is  soo cool")
+        // }
+
+        // QNO11
+        // var calculator = +prompt("Enter the first_number, second_number, operation)");
+        // if (operation == '+') {
+        //     alert(result = first_number + second_number)
+        // }
+
+        // if (operation == '-') {
+        //     alert(result = first_number - second_number)
+        // }
+
+        // if (operation == '*')
+        //     alert(result = first_number * second_number)
+        // if (operation == '/') {
+        //     result = first_number / second_number
+        // }
+
+
+        // else:
+        //     result = "Error! Division by zero."
+
+
+        // CHPATER NO !4-16
+        // Qno1
+        var studentName = [];
+        console.log(studentName)
+        // Qno2
+        var studentName = new Array();
+        console.log(studentName)
+        //  Qno3
+        var studentName = ["Ali", "Haris", "Ahmed"];
+        console.log(studentName)
+        //  Qno4
+        var numbers = [1, 2, 3, 4, 5];
+        console.log(numbers)
+        // Qno5;
+        var booleanValues = [true, false, true, false];
+        console.log(booleanValues)
+        // Qno6
+        var mixedArray = ["Alice", 42, true, { key: "value" }, [1, 2, 3]];
+        console.log(mixedArray)
+        // Qno7
+        var educationQualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil.", "PhD"];
+        console.log(educationQualifications)
+        // Qno8
+        var studentNames = ["Ali", "Baber", "Haris"];
+        var studentScores = [400, 450, 375]; // Scores out of 500
+
+        // Total marks for each student
+        const totalMarks = 500;
+
+        // Loop through the arrays and display the scores and percentages
+        for (let i = 0; i < studentNames.length; i++) {
+            let percentage = (studentScores[i] / totalMarks) * 100;
+            console.log(`Student: ${studentNames[i]}`);
+            console.log(`Score: ${studentScores[i]}`);
+            console.log(`Percentage: ${percentage.toFixed(2)}%`);
+            console.log("--------------------------");
+        }
+
+
+        // Qno10
+        var studentScores = [85, 92, 78, 65, 99, 73];
+
+        // Sorting the array in ascending order
+        studentScores.sort(function (a, b) {
+            return a - b;
+        });
+
+        // Displaying the sorted array
+        console.log("Sorted student scores in ascending order:");
+        console.log(studentScores);
+        // Qno11
+        // Initialize the cities array with city names
+        var cities = ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix", "Philadelphia", "San Antonio"];
+
+        // Copy 3 elements from cities array to selectedCities array
+        var selectedCities = cities.slice(0, 3); // This will copy the first 3 elements
+
+        // Output the selectedCities array
+        console.log("Selected Cities:", selectedCities);
+
+        // QNO12
+        // Initialize the array
+        var arr = ["This ", " is ", " my ", " cat"];
+
+        // Create a single string from the array elements
+        var result = arr.join("");
+
+        // Output the result
+        console.log(result);
+
+        // Qno13
+        // Initialize an empty array
+        var fifoArray = [];
+
+        // Add values one by one (FIFO - First In First Out)
+        fifoArray.push("First");
+        fifoArray.push("Second");
+        fifoArray.push("Third");
+
+        // Access and remove the values in the order they were stored
+        console.log("Removed:", fifoArray.shift()); // Removes and logs "First"
+        console.log("Removed:", fifoArray.shift()); // Removes and logs "Second"
+        console.log("Removed:", fifoArray.shift()); // Removes and logs "Third"
+
+        // Now the fifoArray is empty
+        console.log("Remaining elements in array:", fifoArray);
+
+
+        // CHAPTER 17-20
+        // Qno1
+
+        var multiArray = [];
+        multiArray = [[], [], []];
+
+        multiArray[0].push("Value in the first sub-array");
+        multiArray[1].push("Value in the second sub-array");
+        multiArray[2].push("Value in the third sub-array");
+
+        console.log(multiArray);
+
+        // Qno2
+        // Declare and initialize a 2D array (3x3 matrix)
+        var matrix = [
+            [0, 1, 2, 3],
+            [1, 0, 1, 0],
+            [2, 1, 0, 1]
+        ];
+
+        // Output the matrix
+        console.log(matrix);
+
+        // qNO3
+        // Print numeric counting from 1 to 10
+        for (var i = 1; i <= 10; i++) {
+            console.log(i);
+        }
+        // Qno5
+
+        var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+
+        for (var i = 0; i < fruits.length; i++) {
+            console.log(fruits[i]);
+
+        }
+
+        // Qno6
+        // a. Counting
+        const counting = Array.from({ length: 15 }, (_, i) => i + 1);
+        console.log('Counting:', counting);
+
+        // b. Reverse counting
+        const reverseCounting = Array.from({ length: 10 }, (_, i) => 10 - i);
+        console.log('Reverse counting:', reverseCounting);
+
+        // c. Even
+        const even = Array.from({ length: 11 }, (_, i) => i * 2);
+        console.log('Even:', even);
+
+        // d. Odd
+        const odd = Array.from({ length: 10 }, (_, i) => i * 2 + 1);
+        console.log('Odd:', odd);
+
+        // e. Series
+        const series = Array.from({ length: 10 }, (_, i) => (i + 1) * 2 + 'k');
+        console.log('Series:', series);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
